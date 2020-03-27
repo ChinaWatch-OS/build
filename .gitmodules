@@ -1,0 +1,18 @@
+[submodule "bootloader"]
+	path = bootloader
+	url = https://github.com/ChinaWatch-OS/bootloader
+[submodule "common"]
+	path = common
+	url = https://github.com/ChinaWatch-OS/common
+[submodule "kernel"]
+	path = kernel
+	url = https://github.com/ChinaWatch-OS/kernel
+[submodule "stdlib"]
+	path = stdlib
+	url = https://github.com/ChinaWatch-OS/stdlib
+[submodule "system"]
+	path = system
+	url = https://github.com/ChinaWatch-OS/system
+[submodule "tools"]
+	path = tools
+	url = https://github.com/ChinaWatch-OS/tools
