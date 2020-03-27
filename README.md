@@ -21,7 +21,7 @@ git submodule update --init --recursive
 
 Configure CMake project
 ```
-cmake --no-warn-unused-cli  -DCMAKE_TOOLCHAIN_FILE:FILEPATH=GT08S.cmake -G "Unix Makefiles"
+cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER:FILEPATH=arm-none-eabi-g++.exe -DCMAKE_TOOLCHAIN_FILE:FILEPATH=GT08S.cmake -H. -Bbuild -G "Unix Makefiles"
 ```
 
 Build project
@@ -32,4 +32,5 @@ cmake --build build --config Debug --target all -- -j 4
 # Licensing
 
 Licensed under the GNU GPL-3.0 license (see [LICENSE](LICENSE)).
-/tools/mtk_signer.exe is licensed under the GNU GPL-2.0 license and its source code can be obtained [here](https://github.com/MediatekInfo/mtk_sign)
+
+/tools/mtk_signer.exe is licensed under the GNU GPL-2.0 license and its source code can be obtained [here](https://github.com/MediatekInfo/mtk_sign).
