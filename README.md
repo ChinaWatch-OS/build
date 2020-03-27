@@ -5,7 +5,9 @@ This project was created with the aim of writing free firmware for various сhin
 **1. Installing programs**
 
 Download and install the latest version of **FlashTool**. You can obtain this software [here](https://androidmtk.com/download-mtk-flash-tool).
-Download and install **arm-none-eabi-gcc crosscompiler**. For Windows you can get it [here](https://gnutoolchains.com/arm-eabi/).
+
+Download and install **arm-none-eabi-gcc** crosscompiler. For Windows you can get it [here](https://gnutoolchains.com/arm-eabi/).
+
 Download and install **CMake**. You can get it [here](https://cmake.org/download/)
 
 **2. Setting up your copy of the code**
