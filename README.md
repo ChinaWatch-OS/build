@@ -8,7 +8,7 @@ Download and install the latest version of **FlashTool**. You can obtain this so
 
 Download and install **arm-none-eabi-gcc** crosscompiler. For Windows you can get it [here](https://gnutoolchains.com/arm-eabi/).
 
-Download and install **CMake**. You can get it [here](https://cmake.org/download/)
+Download and install **CMake**. You can get it [here](https://cmake.org/download/).
 
 **2. Setting up your copy of the code**
 
@@ -30,9 +30,16 @@ Build project
 ```
 cmake --build build --config Debug --target all -- -j 4
 ```
+# Flashing
+**1. Run FlashTool, click on the ```Scatter/Config File``` button, select file ```gt08s.cfg``` from folder ```tools```**
+
+![FlashTool scatter file](images/flashtool_1.png)
+
+**2. Click on the ```Download``` button, connect the device and wait. After a while a window with a green circle will appear**
+
+![FlashTool flashing done](images/flashtool_2.png)
 
 # Licensing
-
 Licensed under the GNU GPL-3.0 license (see [LICENSE](LICENSE)).
 
 /tools/mtk_signer.exe is licensed under the GNU GPL-2.0 license and its source code can be obtained [here](https://github.com/MediatekInfo/mtk_sign).
