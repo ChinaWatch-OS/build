@@ -1,5 +1,7 @@
 # ChinaWatch OS
-This project was created with the aim of writing free firmware for various сhinese smartwatches based on the Mediatek 62XX platform. The main devices for which the firmware is being developed are GT-08S and DZ09
+## This is a fork of the [DZ09](https://github.com/MediatekInfo/DZ09) repository.
+
+This project was created with the aim of writing free firmware for various сhinese smartwatches based on the Mediatek 6261 platform. The main devices for which the firmware is being developed are GT-08S and DZ09.
 
 # Compiling
 **1. Installing programs**
